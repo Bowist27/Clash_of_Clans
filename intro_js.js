@@ -91,11 +91,10 @@ for(let indice in arreglo) {
 
 //Objetos
 
-//const objeto = {} 
+const objeto = {atributo1: "Valor 1", atributo2: "valor 2"};
+objeto.atributo3 = 3;
+console.log(objeto);
 
 
-
-
-
-
-
+// modificar html
+document.write("hola");

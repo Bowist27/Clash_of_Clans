@@ -1,17 +1,13 @@
 // consola (log, info, warn, error, assert)
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("hola");
+console.info("Clash of clans");
+console.warn("Esta es una advertencia");
+console.error("Esto es un error");
+console.assert(1 == "1");
+//console.assert(1 === "1");
+console.assert(1 == true);
+//console.assert(1 === true);
 
 
 // variables, constantes

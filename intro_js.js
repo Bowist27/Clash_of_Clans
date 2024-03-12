@@ -35,35 +35,25 @@ if (hambre) {
     console.log("Continuemos programando");
 }
 
-
-
-
 // funciones tradicionales
+function atacar() {
+    console.log("Atacar a los goblins");
+}
 
-
-
-
-
-
-
-
-
-
-
-
+atacar();
 
 // funciones modernas
+let accion_basica = () => {
+    console.log("Construir");
+}
 
+accion_basica();
 
+let accion = (construccion) => {
+    console.log("Construir " + construccion);
+}
 
-
-
-
-
-
-
-
-
+accion("cuartel");
 
 // arreglos
 

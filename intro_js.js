@@ -57,45 +57,36 @@ accion("cuartel");
 
 // arreglos
 
-//const arreglo = ["Elemento"];
+const arreglo = ["Elemento"];
+const arreglo2 = new Array();
 
+arreglo.push("Otro elemento");
+arreglo.push(5);
 
+const elemento = 8;
+arreglo.push(elemento);
 
-
-
-
-//const arreglo = new Array() 
-
-
-
-
-
-//arreglo.push("Otro elemento");
-
-
-
-
-
-//arreglo[10] = "Uno más";
-
-
-
+arreglo[10] = "Uno más";
 
 //arreglos asociativos
+arreglo["dos"] = 2;
 
-
-
+console.log(arreglo);
 
 //recorrido tradicional del arreglo
 
-//for (let i = 0; i < arreglo.length; i++) {
-//    console.log(arreglo[i]);
-//}
+for (let i = 0; i < arreglo.length; i++) {
+    console.log(arreglo[i]);
+}
 
 //recorridos alternativos del arreglo
-//for(let posicion in arreglo) {
-//    console.log(posicion);
-//}
+for(let valor of arreglo) {
+    console.log(valor);
+}
+
+for(let indice in arreglo) {
+    console.log(indice);
+}
 
 
 //Objetos

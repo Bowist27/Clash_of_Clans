@@ -12,28 +12,14 @@ console.assert(1 == true);
 
 // variables, constantes
 
+//declarar variable de manera antigua
+var luchadores = 20;
 
+//declara una variable de manera moderna
+let arqueras = 20;
 
-
-
-
-
-
-
-
-
-// Alcance de las variables
-
-
-
-
-
-
-
-
-
-
-
+//declarar constante
+const precio = 50;
 
 // alert, prompt, confirm
 
@@ -130,5 +116,3 @@ console.assert(1 == true);
 
 
 
-
-// modificar html

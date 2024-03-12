@@ -23,15 +23,17 @@ const precio = 50;
 
 // alert, prompt, confirm
 
+alert("hola");
+const nombre = prompt("¿Cómo te llamas?");
+console.log("Hola " + nombre);
 
+const hambre = confirm("¿Tienes hambre?");
 
-
-
-
-
-
-
-
+if (hambre) {
+    console.log("Es hora de comer");
+} else {
+    console.log("Continuemos programando");
+}
 
 
 
